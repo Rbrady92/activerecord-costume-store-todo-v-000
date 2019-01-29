@@ -34,11 +34,18 @@ ActiveRecord::Schema.define(version: 3) do
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
     t.string "location"
+<<<<<<< HEAD
     t.string "theme"
     t.float "price"
     t.boolean "family_friendly"
     t.datetime "opening_date"
     t.datetime "closing_date"
+=======
+    t.float "price"
+    t.boolean "family_friendly"
+    t.datetime "opening_time"
+    t.datetime "closing_time"
+>>>>>>> 94af9772e4c10014faa9c2f41b5df428bd0d9768
     t.text "description"
   end
 
